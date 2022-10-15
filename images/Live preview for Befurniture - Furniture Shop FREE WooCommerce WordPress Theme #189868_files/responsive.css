@@ -1,0 +1,237 @@
+/* Normal  :1366px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+/*Menu css*/
+.befurniture-menu > ul > li + li {
+    margin-left: 32px;
+}
+
+/*slider buton*/
+.custom-slider-btn .htslider-slider .slick-arrow {
+    left: 15px;
+}
+.custom-slider-btn .htslider-slider .slick-arrow.slick-next {
+    left: 50px;
+}
+/*other's*/
+.custom-bg-heading .elementor-heading-title {
+    font-size: 131px!important;
+}
+.befurniture-blog-content {
+    padding-right: 37px;
+}
+
+.blog-list-bg .befurniture-blog-content {
+    padding-left: 37px;
+}
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 95%;
+}
+/*Menu css*/
+.befurniture-menu > ul > li + li {
+    margin-left: 20px;
+}
+.befurniture-menu > ul > li > a{
+    font-size: 16px;
+}
+/*slider buton*/
+.custom-slider-btn .htslider-slider .slick-arrow {
+    left: 15px;
+    bottom: 60px;
+}
+.custom-slider-btn .htslider-slider .slick-arrow.slick-next {
+    left: 50px;
+}
+.custom-bg-heading .elementor-heading-title {
+    font-size: 113px!important;
+}
+
+.befurniture-blog-content {
+    padding-right: 37px;
+    padding-left: 30px;
+}
+.befurniture-blog-content.no-thumbnail{
+    padding-left:30px;
+}
+
+.blog-list-bg .befurniture-blog-content {
+    padding-left: 37px;
+    padding-right: 30px
+}
+.befurniture-blog-content .entry-title {
+    font-size: 39px;
+    line-height: 45px;
+}
+}
+
+@media (max-width: 991px) {
+/*shop*/
+.custom-shop .ht-tab-menus {
+    margin-bottom: 40px;
+}
+.htmove-feature-list.htmove-row .htmove-feature:first-child {
+    padding-right: 15px !important;
+}
+.htmove-feature-list.htmove-row .htmove-feature:last-child {
+    padding-right: 0px !important;
+    padding-left: 15px !important;
+}
+.product-details-right {
+    margin-top: 24px;
+}
+.shop-main-column-right {
+    padding-left: 15px;
+}
+.related-product-section .single-product, .up-sells .single-product{
+    margin-bottom: 40px;
+}
+.related-product-section {
+    padding: 78px 0 32px;
+}
+
+.custom-flex .elementor-image-box-wrapper {
+    display: flex;
+}
+.shop-page-area {
+    padding-top: 60px;
+}
+.befurniture-blog-content {
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.befurniture-blog-content.no-thumbnail{
+    padding-left: 30px;
+}
+.blog-list-bg .befurniture-blog-content {
+    padding-left: 15px;
+    padding-right: 30px
+}
+.befurniture-blog-content .entry-title {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 18px;
+    letter-spacing: -1px;
+}
+.befurniture-blog-thumb {
+    flex: 0 0 50%;
+}
+.blog-list-bg,.befurniture-single-blog {
+    padding: 80px 0;
+}
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+/*slider buton*/
+.custom-slider-btn .htslider-slider .slick-arrow,.custom-slider-btn.btn2 .htslider-slider .slick-arrow {
+    left: 15px;
+    bottom: 0px;
+    margin-left: 0;
+}
+.custom-slider-btn .htslider-slider .slick-arrow.slick-next,.custom-slider-btn.btn2 .htslider-slider .slick-arrow.slick-next {
+    left: 50px;
+    margin-left: 0;
+}
+
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+.custom-slider-btn .htslider-slider .slick-arrow,.custom-slider-btn.btn2 .htslider-slider .slick-arrow {
+    left: 15px;
+    top: 50%;
+    margin-left: 0;
+}
+.custom-slider-btn .htslider-slider .slick-arrow.slick-next,.custom-slider-btn.btn2 .htslider-slider .slick-arrow.slick-next {
+    left: auto;
+    right: 15px;
+}
+
+.woocommerce div.product .product_title {
+    font-size: 20px;
+}
+.entry-content.wc-tab h2{
+    font-size: 25px;
+}
+.woocommerce .comment-reply-title {
+    font-size: 20px;
+}
+
+/*Feature css*/
+.htmove-feature-list.htmove-row .htmove-feature:last-child {
+    padding-left: 0px !important;
+}
+.custom-testimonial .ht-single-testimonial-wrap .ht-client-content p {
+    display: block;
+} 
+.comment-form-email {
+    width: 100%;
+    margin-left: 0 !important;
+}
+.comment-form-author {
+    width: 100%;
+}
+
+.befurniture-blog-content-area,.blog-list-bg .befurniture-blog-content-area {
+    flex-direction: column;
+}
+.befurniture-blog-thumb {
+    margin-bottom: 25px;
+}
+.befurniture-blog-content,.befurniture-blog-content.no-thumbnail {
+    padding-right: 0;
+    padding-left: 0;
+}
+blockquote, .single-blog-area .befurniture-excerpt blockquote > p, blockquote p {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+}
+
+@media (max-width: 576px) {
+/*Header css*/
+.befurniture-login + .befurniture-login {
+    margin-left: 4px;
+}
+.befurniture-login>i, .befurniture-login>img{
+    margin-left: 9px;
+}
+
+.befurniture-header-mini-cart {
+    width: 260px;
+}
+
+.befurniture-page-header-content .title {
+    font-size: 25px;
+    line-height: 30px;
+}
+.menu-login-menu-container {
+    left: auto;
+    right: 0;
+}
+.woocommerce div.product form.cart .button {
+    padding: 0px 40px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    font-size: 13px;
+}
+.befurniture-blog-content .entry-title {
+    font-size: 20px;
+    line-height: 28px;
+}
+.befurniture-excerpt p {
+    font-size: 15px;
+    line-height: 28px;
+}
+blockquote {
+    display: block;
+}
+}

@@ -1,0 +1,59 @@
+
+.homepage1{
+    width:25%;
+    height:100%;
+    margin-top: 30px;
+    margin-left: 172px;
+    padding-right: 20px;
+}
+.sale{
+    border: 2px solid rgb(10, 2, 2);
+    width: 80%;
+    height: 56.5%;
+    margin-left: 10px;
+}
+.shopnow{
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.homepage2 img{
+    float: right;
+    margin-right: 10px;
+}
+.col-md-12 .bestchoice{
+    text-align: center;
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+.bestimg img{
+    width: 50px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:993px) and (max-width:994px){
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+
+}
+@media screen and (max-width:767px){
+    
+}
+
+
+
+
+
+
+
